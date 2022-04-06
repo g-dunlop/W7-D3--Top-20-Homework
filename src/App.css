@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -35,4 +36,42 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.app{
+  background-color:black;
+  padding:1rem;
+  color:white;
+  text-align:center;
+}
+
+.app > h1{
+  font-size:3rem;
+  letter-spacing:0.25rem;
+}
+
+.select-bar{
+  font-size:2rem;
+  padding:0.25rem;
+}
+
+.list-item{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:1rem;
+}
+
+.list-item-left{
+  flex:40%;
+  text-align:center;
+  background-color: rgba(219, 29, 29, 0.568);
+  color:rgb(252, 252, 252);
+  padding:1rem;
+  border-radius:10px;
+}
+
+.list-item-right{
+  flex:40%;
+  text-align:center;
 }

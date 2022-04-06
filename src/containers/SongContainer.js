@@ -24,10 +24,10 @@ const SongContainer = () => {
 
 
     return (
-        <>
+        <div className="song-container">
             <SelectGenre  selectedGenre = {selectedGenre}/>
             <SongList songs = {songs} />
-        </>
+        </div>
 
     )
 }

@@ -10,7 +10,7 @@ const SelectGenre = ({selectedGenre}) => {
 
    return (
        <div>
-           <select onChange={handleChange}>
+           <select className="select-bar" onChange={handleChange}>
                 <option value='https://itunes.apple.com/gb/rss/topsongs/limit=20/json'>All</option>
                 <option value='https://itunes.apple.com/gb/rss/topsongs/limit=20/genre=21/json'>Rock</option>
                 <option value='https://itunes.apple.com/gb/rss/topsongs/limit=20/genre=17/json'>Dance</option>
