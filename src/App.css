@@ -63,15 +63,32 @@
 }
 
 .list-item-left{
-  flex:40%;
-  text-align:center;
+  display:flex;
+  width:60%;
   background-color: rgba(219, 29, 29, 0.568);
   color:rgb(252, 252, 252);
   padding:1rem;
   border-radius:10px;
+  border: 2px solid white;
 }
 
 .list-item-right{
   flex:40%;
   text-align:center;
+}
+.list-item-left-left{
+  margin-right:2rem;
+  flex:50%;
+}
+
+.list-item-left-right{
+  flex:50%;
+}
+
+audio::-webkit-media-controls-panel{
+  background-color:rgba(219, 29, 29, 0.404);
+}
+
+audio::-webkit-media-controls-mute-button, audio::-webkit-media-controls-play-button, audio::-webkit-media-controls-volume-slider, audio::-webkit-media-controls-timeline{
+  color:white;
 }
